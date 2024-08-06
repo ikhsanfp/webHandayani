@@ -1,0 +1,39 @@
+.main-color {
+    background-color: purple !important;
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('###')
+   
+}
+
+.hoverd-card{
+transition: 3s;
+}
+
+.hoverd-card:hover {
+    transform: : scale(1.1);
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.content-subscribe{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-produk {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('###')
+}
+
+.banner-promo {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('###')
+}

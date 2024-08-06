@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handayani Snack | Keranjang Saya</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+    <!--  navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#">Handayani Snack</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
+                            <i class="bi bi-cart"></i> Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--table-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center my-5">Keranjang Belanja</h2>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Pesanan</th>
+                        <th>Harga</th>
+                        <th>Jumlah</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/french-fries.jpg" data-lightbox="french fries"
+                                data-title="French Freise">
+                                <img src="image/product/thumb/french-fries.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+
+                                <label class="d-block d-sm-none">French Fries</label>
+                            </a>
+                        </td>
+                        <td>French Fries</td>
+                        <td>Rp. 20.000</td>
+                        <td>1</td>
+                        <td>Rp. 20.000</td>
+                    </tr>
+
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/steak.jpg" data-lightbox="Steak" data-title="Steak">
+                                <img src="image/product/thumb/steak.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+
+                                <label class="d-block d-sm-none">Steak</label>
+                            </a>
+                        </td>
+                        <td>Steak</td>
+                        <td>Rp. 85.000</td>
+                        <td>2</td>
+                        <td>Rp. 170.000</td>
+                    </tr>
+
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/strawberry-drink.jpg" data-lightbox="Strawberry Drink"
+                                data-title="Strawberry Drink">
+                                <img src="image/product/thumb/strawberry-drink.jpg"
+                                    class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                                    
+                                <label class="d-block d-sm-none"></label>
+                            </a>
+                        </td>
+                        <td>Strawberry Drink</td>
+                        <td>Rp. 25.000</td>
+                        <td>2</td>
+                        <td>Rp. 50.000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">Total</th>
+                        <th>Rp. 240.000</th>
+                    </tr>
+                </table>
+            </div>
+
+            <button class="btn btn-warning text-light">Checkout</button>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>

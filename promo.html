@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handayani Snack | Promo</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+    <!--  navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#">Handayani Snack</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="index.php" tabindex="-1" aria-disabled="true">
+                          <i class="bi bi-person"></i>login</a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="container-fluid banner-promo d-flex align-items-center">
+        <div class="container">
+            <h1 class="text-light text-center display-5 mb-3">Tentang Toko Handayani Snack</h1>
+        </div>
+    </div>
+
+    <!--promo-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <!--kategori promo-->
+            <div class="row justify-content-center mb-5">
+                <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+                    <button id="SemuaPromoBtn" onclick="showAll()" class="btn btn-outline-warning w-100 fs-5 active">Sejarah Toko</button>
+                </div>
+                <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+                    <button id="PromoDiskonBtn" onclick="showDiskon()" class="btn btn-outline-warning w-100 fs-5">Galeri Toko</button>
+                </div>
+            </div>
+
+            <!--isi promo-->
+            <!--semua promo-->
+            <div id="SemuaPromo">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/chocolate-mousse.jpg" data-lightbox="chocolate mousse"
+                                data-title="chocolate mousse">
+                                <img src="image/product/thumb/chocolate-mousse.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Beli 1 Gratis 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/coffee.jpg" data-lightbox="coffee" data-title="coffee">
+                                <img src="image/product/thumb/coffee.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Gratis Cappucino</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/brownies.jpg" data-lightbox="brownies" data-title="brownies">
+                                <img src="image/product/thumb/brownies.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Gratis Brownies</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/skewer.jpg" data-lightbox="skewer" data-title="skewer">
+                                <img src="image/product/thumb/skewer.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Skewer Disc 20%</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/cereal.jpg" data-lightbox="cereal" data-title="cereal">
+                                <img src="image/product/thumb/cereal.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Cereal Disc 20%</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/steak.jpg" data-lightbox="steak" data-title="steak">
+                                <img src="image/product/thumb/steak.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Steak Disc 20%</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--promo diskon-->
+            <div id="PromoDiskon">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/skewer.jpg" data-lightbox="skewer" data-title="skewer">
+                                <img src="image/product/thumb/skewer.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Skewer Disc 20%</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/cereal.jpg" data-lightbox="cereal" data-title="cereal">
+                                <img src="image/product/thumb/cereal.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Cereal Disc 20%</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                        <div class="card">
+                            <a href="image/product/steak.jpg" data-lightbox="steak" data-title="steak">
+                                <img src="image/product/thumb/steak.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Steak Disc 20%</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <!--subscribe-->
+    <div class="container-fluid py-5 content-subscribe text-light">
+        <div class="container">
+          <h5 class="text-center mb-4">Temui Kami</h5>
+          <div class="row justify-content-center">
+            <div class="col-sm-1 d-flex justify-content-center">
+              <i class="bi bi-facebook fs-4"></i>
+            </div>
+  
+            <div class="col-sm-1 d-flex justify-content-center">
+              <i class="bi bi-instagram fs-4"></i>
+            </div>
+  
+            <div class="col-sm-1 d-flex justify-content-center">
+              <i class="bi bi-whatsapp fs-4"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!--footer-->
+      <div class="container-fluid py-3 bg-dark text-light">
+        <div class="container d-flex justify-content-between">
+          <label>&copy;2021 Toko Saya</label>
+          <label>Created By Dewi Nurul</label>
+        </div>
+      </div>
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+        var btnSemuaPromo = $("#SemuaPromoBtn");
+        var btnDiskonPromo = $("#PromoDiskonBtn");
+        var btnBonusPromo = $("#PromoBonusBtn");
+
+        var semuaPromoView =$("#SemuaPromo");
+        var diskonPromoView =$("#PromoDiskon");
+        var bonusPromoView = $("#PromoBonus");
+
+        diskonPromoView.hide();
+        bonusPromoView.hide();
+
+        function showAll(){
+            btnDiskonPromo.removeClass('active');
+            btnBonusPromo.removeClass('active');
+            btnSemuaPromo.addClass('active');
+
+            diskonPromoView.hide(1000);
+            bonusPromoView.hide(1000);
+            semuaPromoView.show(1000);
+        }
+
+        function showDiskon(){
+            btnSemuaPromo.removeClass('active');
+            btnBonusPromo.removeClass('active');
+            btnDiskonPromo.addClass('active');
+
+            semuaPromoView.hide(1000);
+            bonusPromoView.hide(1000);
+            diskonPromoView.show(1000);
+        }
+
+        function showBonus(){
+            btnSemuaPromo.removeClass('active');
+            btnDiskonPromo.removeClass('active');
+            btnBonusPromo.addClass('active');
+
+            semuaPromoView.hide(1000);
+            diskonPromoView.hide(1000);
+            bonusPromoView.show(1000);
+        }
+         
+    </script>
+</body>
+
+</html>
